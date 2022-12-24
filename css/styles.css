@@ -161,3 +161,9 @@ address > ul {
 .footer-info-grey {
   color: var(--secondery-text-color);
 }
+
+/*HOVER*/
+
+.header-navigation > li:hover {
+  background-color: #2196f3;
+}
