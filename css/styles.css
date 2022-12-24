@@ -1,2 +1,38 @@
-.logo {
+.nav-webstudios {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.header-navigation {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-telephone {
+  color: #757575;
+}
+.container-effective-solutions {
+  background-color: #2f303a;
+}
+
+.effective-solutions {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  text-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
