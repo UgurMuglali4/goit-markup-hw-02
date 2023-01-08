@@ -49,6 +49,10 @@ ul {
 }
 
 /*MAIN*/
+.backround-color-effective-solutions {
+  background-color: var(--dark-bg-color);
+}
+
 .container-effective-solutions {
   background-color: var(--dark-bg-color);
 }
@@ -62,6 +66,9 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-bg-color);
+}
+.button-container {
+  background-color: var(--dark-bg-color);
 }
 .request-our-service {
   font-family: "Roboto";
@@ -163,7 +170,11 @@ address > ul {
 }
 
 .footer-info-grey {
-  color: var(--secondery-text-color);
+  color: var(--light-bg-color);
+}
+
+.footer-background-color {
+  background-color: var(--dark-bg-color);
 }
 
 /*HOVER*/
@@ -175,3 +186,9 @@ address > ul {
 .header-mail-telephone-hover :hover {
   color: var(--effect-color);
 }
+
+.button-container :hover {
+  color: var(--primary-text-color);
+}
+
+/*PORTFOLIO PAGE*/

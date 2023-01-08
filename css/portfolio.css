@@ -1,0 +1,66 @@
+:root {
+  --dark-bg-color: #2f303a;
+  --light-bg-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondery-text-color: #757575;
+  --effect-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto";
+  font-style: normal;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+/*HEADER*/
+
+.Portfolio-header-logo {
+  color: var(--effect-color);
+  font-family: Raleway;
+  font-style: bold;
+  font-size: calc(25 / 31);
+}
+
+.header-nav-hover {
+  font-family: "Roboto";
+  font-style: Medium;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: var(--primary-text-color);
+}
+
+.header-nav-hover :hover {
+  color: var(--effect-color);
+}
+
+.header-adress {
+  font-family: "Roboto";
+  font-style: Medium;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: var(--secondery-text-color);
+}
+
+.button-filter {
+  font-family: "Roboto";
+  font-style: Medium;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: var(--primary-text-color);
+}
+
+.button-hover-main :hover {
+  color: var(--effect-color);
+}
+
+.name {
+  text-decoration: none;
+}
