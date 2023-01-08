@@ -41,9 +41,13 @@ ul {
   color: var(--primary-text-color);
 }
 
-.header-telephone {
-  color: var(--secondery-text-color);
+.header-mail-telephone {
+  font-style: medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
 }
+
 /*MAIN*/
 .container-effective-solutions {
   background-color: var(--dark-bg-color);
@@ -164,6 +168,10 @@ address > ul {
 
 /*HOVER*/
 
-.header-navigation > li:hover {
-  background-color: #2196f3;
+.header-navigation :hover {
+  color: var(--effect-color);
+}
+
+.header-mail-telephone-hover :hover {
+  color: var(--effect-color);
 }
