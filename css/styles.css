@@ -48,8 +48,13 @@ ul {
   color: var(--primary-text-color);
 }
 
+.header-navigation {
+  color: var(--primary-text-color);
+}
+
 .header-mail-telephone {
   font-style: medium;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   color: #757575;
@@ -72,12 +77,14 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--light-bg-color);
+  color: white;
 }
 .button-container {
   background-color: var(--dark-bg-color);
 }
+
 .request-our-service {
+  cursor: pointer;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -211,6 +218,7 @@ address > ul {
 
 .header-nav-hover {
   font-family: "Roboto";
+  font-weight: 500;
   font-style: Medium;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -223,6 +231,7 @@ address > ul {
 
 .header-adress {
   font-family: "Roboto";
+  font-weight: 500;
   font-style: Medium;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -231,6 +240,9 @@ address > ul {
 
 .button-filter {
   font-family: "Roboto";
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
   font-style: Medium;
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -238,7 +250,7 @@ address > ul {
 }
 
 .button-hover-main :hover {
-  color: var(--effect-color);
+  background-color: var(--effect-color);
 }
 
 .project {
