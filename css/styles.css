@@ -213,7 +213,8 @@ address > ul {
   color: var(--effect-color);
   font-family: Raleway;
   font-style: bold;
-  font-size: calc(25 / 31);
+  line-height: calc(31 / 25);
+  font-size: 25px;
 }
 
 .header-nav-hover {
@@ -250,6 +251,7 @@ address > ul {
 }
 
 .button-hover-main :hover {
+  display: inline;
   background-color: var(--effect-color);
 }
 
